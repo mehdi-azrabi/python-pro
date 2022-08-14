@@ -11,7 +11,14 @@ print('We can even include "quotes" in strings')
 print("hello" + " world")
 
 greeting = "Hello"
-name = input("Please enter your name: ")
+name = "mehdi"
 #if we want a space we can add that too
 print(greeting + ' ' +  name)
+age= 43
+age_in_words = "2 years"
+print(age_in_words)
+
+print(name + " is " + age +"years old")
+print(type(age_in_words))
+print(id(name))
 
