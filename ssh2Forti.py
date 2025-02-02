@@ -19,7 +19,6 @@ DEVICE_ACCESS = SESSION.invoke_shell()
 DEVICE_ACCESS.send(b'get system status\n')
 time.sleep(2)
 DEVICE_ACCESS.send(b'get router info bgp summary\n')
-time.sleep(2)
 output = DEVICE_ACCESS.recv(65000)
 print(output.decode('ascii'))
 
